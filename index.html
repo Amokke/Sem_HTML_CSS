@@ -1,32 +1,60 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
+    <title>HomeWork</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <a class="nav_link" href="index.html">Главная</a>
-    <a class="nav_link" href="catalog/catalog.html">Каталог</a>
-    <a class="nav_link" href="contacts/contacts.html">Контакты</a>
-    <h1 class="main_header">Главная страница</h1>
-    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, cum? Architecto officiis aut totam
-        rerum error, sit vitae sapiente cupiditate, natus ratione ea tempora modi cum provident corrupti consequuntur.
-        Similique?</p>
-    <h2 class="sub_header">Добро пожаловать на сайт</h2>
-    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ullam tempore atque magni possimus
-        voluptatum eligendi, sed culpa provident laudantium! Odit aliquam eveniet, tempore debitis laboriosam enim.
-        Atque, iusto officia.</p>
-    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ullam tempore atque magni possimus
-        voluptatum eligendi, sed culpa provident laudantium! Odit aliquam eveniet, tempore debitis laboriosam enim.
-        Atque, iusto officia.</p>
-    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ullam tempore atque magni possimus
-        voluptatum eligendi, sed culpa provident laudantium! Odit aliquam eveniet, tempore debitis laboriosam enim.
-        Atque, iusto officia.</p>
-
+    <header>
+        <div class="header__wrapper container">
+            <img src="./img/Logo.png" alt="growbe">
+            <nav class="navigation">
+                <a class="link" href="#">Home</a>
+                <a class="link" href="#">About Us</a>
+                <a class="link" href="#">Services</a>
+                <select class="nav_select" name="" id="">
+                    <option value="def" selected>
+                        <a class="link" href="#">Features</a>
+                    </option>
+                    <option value="">Lorem.</option>
+                    <option value="">Lorem.</option>
+                    <option value="">Lorem.</option>
+                </select>
+                <a class="link" href="#">Team</a>
+                <a class="link" href="#">Blog</a>
+                <a class="link" href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main__content container">
+            <div>
+                <h1 class="big-title">SEO & Digital Marketing For Your Website.</h1>
+                <p class="text">Provide all kind of seo services and help to improve seo ranking. Globally incubate
+                    standards.</p>
+                <div class="buttons-list">
+                    <button class="button">Start Now</button>
+                    <button class="button1">Watch Video</button>
+                </div>
+            </div>
+            <img class="img-right" src="./img/lorem.png" alt="lorem">
+        </section>
+        <section>
+            <article class="logos container">
+                <img src="./img/1logo.png" alt="">
+                <img src="./img/2logo.png" alt="">
+                <img src="./img/3logo.png" alt="">
+                <img src="./img/4logo.png" alt="">
+                <img src="./img/5logo.png" alt="">
+                <img src="./img/6logo.png" alt="">
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>
